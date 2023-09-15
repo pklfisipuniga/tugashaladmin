@@ -1,75 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admin Dashboard</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="utf-8" />
+    <title>Animated Login Form | CodingNepal</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="sidebar">
-      <div class="brand">
-        <i class="fa-solid fa-qrcode"></i>&nbsp;&nbsp;
-        <h1>Halaman Admin</h1>
-      </div>
-      <ul>
-        <li><i class="fa-solid fa-gauge"></i>&nbsp;&nbsp;<span>Dashboard</span></li>
-        <li><i class="fa-solid fa-user"></i>&nbsp;&nbsp;<span>User</span></li>
-        <li><i class="fa-solid fa-square-poll-vertical"></i>&nbsp;<span>Survey</span></li>
-        <li><i class="fa-solid fa-circle-exclamation"></i>&nbsp;&nbsp;<span>Report</span></li>
-        <li><i class="fa-solid fa-address-card"></i>&nbsp;&nbsp;<span>Role</span></li>
-        <li><i class="fa-solid fa-gear"></i>&nbsp;&nbsp;<span>Setting</span></li>
-      </ul>
+    <div class="center">
+      <h1>Login</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required />
+          <span></span>
+          <label>Login</label>
+        </div>
+        <input type="submit" value="Login" />
+        <div class="signup_link">Not a member? <a href="#">Signup</a></div>
+      </form>
     </div>
-
-    <div class="container">
-      <div class="header">
-        <div class="nav">
-          <input type="button" value="Logout" />
-        </div>
-      </div>
-      <div class="content">
-        <div class="cards">
-          <div class="card">
-            <div class="box">
-              <h3>jumlah survey</h3>
-            </div>
-          </div>
-            <div class="card">
-              <div class="box">
-                <h3>jumlah user</h3>
-              </div>
-            </div>
-                <div class="card">
-                  <div class="box">
-                    <h3>jumlah yang mengisi</h3>
-                  </div>
-                </div>
-                <div class="content-2">
-                  <div class="cards">
-                    <div class="card">
-                      <div class="box">
-                        <h4>tabel user yang sudah mengisi survey</h4>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="box">
-                        <h4>tabel user yang belum mengisi survey</h4>
-                      </div>
-                    </div>
-                    <div class="content-4">
-                      <div class="cards">
-                        <div class="card">
-                          <div class="box">
-                            <h2>chart user yang sudah dan belum mengisi</h2>
-                          </div>
-                          <div class="icon">
-                            <i class="fa-solid fa-chart-pie fa-2xl"></i>
-                          </div>
-                  </div>
-        </div>
-      </div>
-    </iv>
   </body>
 </html>
